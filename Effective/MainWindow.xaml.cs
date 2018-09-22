@@ -28,7 +28,6 @@ namespace Effective
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             int All, Trade, Fails, Result;
-            int x = 5;
             string Nick, ResultWrite;
 
             Nick = NicknameBox.Text;
@@ -37,7 +36,7 @@ namespace Effective
             Fails = Convert.ToInt32(FailsBox.Text);
             Result = All + Trade * 4 - (Fails * 75);
             ResultWrite = string.Format($"{Nick} = {All} + {Trade} * 4 - ({Fails} * 75) = {Result}");
-            WriteBox.Text = ResultWrite;
+            WriteBox.Text += ResultWrite;
         }
     }
 }
