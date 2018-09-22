@@ -1,0 +1,96 @@
+﻿<Window x:Class="Effective.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Effective"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="700">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="65"/>
+            <RowDefinition Height="65"/>
+            <RowDefinition Height="65"/>
+            <RowDefinition Height="65"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="214"/>
+            <ColumnDefinition Width="378"/>
+        </Grid.ColumnDefinitions>
+        <Label Name="Nickname" 
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Content="Никнейм игрока"
+               Height="30"
+               Width="150"
+               FontSize="16"
+               Margin="30,20,0,0"/>
+        <TextBox Name="NicknameBox"
+                 VerticalAlignment="Top"
+                 Height="30"
+                 Grid.Column="1"
+                 Margin="30,20,0,0" HorizontalAlignment="Left" Width="150"/>
+        <Label Name="AllText"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               FontSize="16"
+               Content="Общее количество"
+               Grid.Row="1"
+               Margin="30,20,0,0" Height="31" Width="150"
+               />
+        <TextBox Name="AllBox"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Height="30"
+                 Width="150"
+                 Grid.Column="1"
+                 Grid.Row="1"
+                 Margin="30,20,0,0"/>
+        <Label Name="TradeText"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               FontSize="16"
+               Content="Количество обменов"
+               Grid.Row="2"
+               Margin="30,20,0,0" Height="31" Width="165"
+               />
+        <TextBox Name="TradeBox"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Height="30"
+                 Width="150"
+                 Grid.Column="1"
+                 Grid.Row="2"
+                 Margin="30,20,0,0"/>
+        <Label Name="FailsText"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               FontSize="16"
+               Content="Количество косяков"
+               Grid.Row="3"
+               Margin="30,20,0,0" Height="31" Width="159"
+               />
+        <TextBox Name="FailsBox"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Height="30"
+                 Width="150"
+                 Grid.Column="1"
+                 Grid.Row="3"
+                 Margin="30,20,0,0"/>
+        <Button 
+            Grid.Column="2"
+            VerticalAlignment="Top"
+            Content="Итог"
+            Height="30"
+            Margin="59,20,147,0" Click="Button_Click"/>
+        <TextBox
+            Name="WriteBox"
+            Grid.Column="2"
+            Grid.Row="1"
+            Grid.RowSpan="3"
+            IsReadOnly="True" Margin="21,9,116,9"/>
+
+    </Grid>
+</Window>
