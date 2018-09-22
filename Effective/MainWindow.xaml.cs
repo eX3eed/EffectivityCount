@@ -27,6 +27,7 @@ namespace Effective
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            SaveFile sf = new SaveFile();
             int All, Trade, Fails, Result;
             string Nick, ResultWrite;
 
@@ -37,6 +38,8 @@ namespace Effective
             Result = All + Trade * 4 - (Fails * 75);
             ResultWrite = string.Format($"{Nick} = {All} + {Trade} * 4 - ({Fails} * 75) = {Result}");
             WriteBox.Text += ResultWrite;
+            sf.FileSave(ResultWrite);
+            
         }
     }
 }
