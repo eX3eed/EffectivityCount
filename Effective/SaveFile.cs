@@ -9,14 +9,13 @@ namespace Effective
 {
     class SaveFile
     {
-        public string FileSave(string ResultWrite)
+        public void FileSave(string ResultWrite)
         { 
             using (StreamWriter sw = new StreamWriter("effectivnost.txt"))
             {
                 sw.WriteLine(ResultWrite);
 
             }
-            return ResultWrite;
         }
     }
 }

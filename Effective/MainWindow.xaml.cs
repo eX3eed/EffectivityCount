@@ -36,7 +36,7 @@ namespace Effective
             Trade = Convert.ToInt32(TradeBox.Text);
             Fails = Convert.ToInt32(FailsBox.Text);
             Result = All + Trade * 4 - (Fails * 75);
-            ResultWrite = string.Format($"{Nick} = {All} + {Trade} * 4 - ({Fails} * 75) = {Result}");
+            ResultWrite = string.Format($"{Nick} = {All} + {Trade} * 4 - ({Fails} * 75) = {Result}\n");
             WriteBox.Text += ResultWrite;
             sf.FileSave(ResultWrite);
             
