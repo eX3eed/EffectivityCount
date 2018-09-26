@@ -10,11 +10,19 @@ namespace Effective
     class SaveFile
     {
         public void FileSave(string ResultWrite)
-        { 
-            using (StreamWriter sw = new StreamWriter("effectivnost.txt"))
-            {
-                sw.WriteLine(ResultWrite);
+        {
 
+            if (File.Exists("effectivnost.txt"))
+            {
+                File.AppendAllText("effectivnost.txt", ResultWrite);
+            }
+            else
+            {
+                using (StreamWriter sw = new StreamWriter("effectivnost.txt"))
+                {
+                    sw.WriteLine(ResultWrite);
+                    sw.Close();
+                }
             }
         }
     }
