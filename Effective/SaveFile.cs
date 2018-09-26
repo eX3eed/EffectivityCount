@@ -11,14 +11,14 @@ namespace Effective
     {
         public void FileSave(string ResultWrite)
         {
-
-            if (File.Exists("effectivnost.txt"))
+            string DT = DateTime.Today.Date.ToLongDateString();
+            if (File.Exists($"effectivnost {DT}.txt"))
             {
-                File.AppendAllText("effectivnost.txt", ResultWrite);
+                File.AppendAllText($"effectivnost {DT}.txt", ResultWrite);
             }
             else
             {
-                using (StreamWriter sw = new StreamWriter("effectivnost.txt"))
+                using (StreamWriter sw = new StreamWriter($"effectivnost {DT}.txt"))
                 {
                     sw.WriteLine(ResultWrite);
                     sw.Close();
