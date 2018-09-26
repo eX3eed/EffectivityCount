@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\obj\Debug\
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\obj\Release\
 Effective
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\App.xaml
 11151548125
 
-7294967316
-14511505135
+6-1595331800
+131569487696
 MainWindow.xaml;
 
 False

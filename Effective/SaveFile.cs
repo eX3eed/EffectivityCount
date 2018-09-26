@@ -14,7 +14,7 @@ namespace Effective
             string DT = DateTime.Today.Date.ToLongDateString();
             if (File.Exists($"effectivnost {DT}.txt"))
             {
-                File.AppendAllText($"effectivnost {DT}.txt", ResultWrite);
+                File.AppendAllText($"effectivnost {DT}.txt", ResultWrite + Environment.NewLine);
             }
             else
             {

@@ -1,0 +1,14 @@
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\bin\Release\Effective.exe.config
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\bin\Release\Effective.exe
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\bin\Release\Effective.pdb
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\obj\Release\MainWindow.g.cs
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\obj\Release\App.g.cs
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\obj\Release\Effective_MarkupCompile.cache
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\obj\Release\Effective_MarkupCompile.lref
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\obj\Release\MainWindow.baml
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\obj\Release\Effective.g.resources
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\obj\Release\Effective.Properties.Resources.resources
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\obj\Release\Effective.csproj.GenerateResource.cache
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\obj\Release\Effective.csproj.CoreCompileInputs.cache
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\obj\Release\Effective.exe
+C:\Users\lfybk\Desktop\GitHub\EffectivityCount\Effective\obj\Release\Effective.pdb
